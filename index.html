@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Farm Records</title>
+    <link rel="icon" href="./img/logox.png">
+    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="stylesheet" href="./css/material-icons.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <div class="container">
+                        <a href="./index.html" class="brand-logo">eFarms<i class="left log"><img class="hide-on-med-and-down logo" src="./img/logox.png" width="40px" height="35px" alt=""></i></a>
+                        <a href="#!" class="sidenav-trigger" data-target="slide-out"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./index.html">Records</a></li>
+                            <li><a href="#!">About</a></li>
+                            <li><i class="material-icons">search</i></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="sidenav" id="slide-out">
+                    <li><a href="#!">Home</a></li>
+                    <li><a href="#!">Records</a></li>
+                    <li><a href="#!">About</a></li> 
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+            <h3 class="white-text"><b>eFarm Records</b></h3>
+            <h5 class="white-text">Welcome, Our platform will help you keep farm records,<br> savely and secure all your farm activities, produce and can even be used<br> to obtain loads and show your experience.</h5>
+
+        </div>
+    </header> 
+    <br><br>
+
+    <div class="container center">
+        <div class="row">
+            <div class="col m7 z-depth-3 card-panel bg-opacity-8" id="panel">
+                <form action="#!">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <h5>Farm Record</h5>
+                        </div>
+                    </div>
+
+                    <div class="row margin">
+                        <div class="container">
+                            <div class="col s4 left">
+                                <label>
+                                    <input id="org" class="with-gap" name="group3" type="radio" checked />
+                                    <span>Company</span>
+                                </label>
+                            </div>
+                            <div class="col s4 right">
+                                <label>
+                                    <input id="personal" class="with-gap" name="group3" type="radio" />
+                                    <span>Personal</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>  
+                </form>
+                <form action="" class="recordform">
+                    <div class="row margin">
+                        <div class="input-field col s10">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="username" type="text">
+                            <label for="username" class="center-align">Name</label>
+                        </div>
+                    </div>
+
+                    <div class="row margin">
+                        <div class="input-field col s10">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="sex" type="text">
+                            <label for="sex" class="center-align">Gender</label>
+                        </div>
+                    </div>
+
+                    <div class="row margin">
+                        <div class="input-field col s10">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="farm" type="text">
+                            <label for="farm" class="center-align">Name of Farm</label>
+                        </div>
+                    </div>
+
+                    <div class="row margin">
+                        <div class="input-field col s10">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="land" type="text">
+                            <label for="land" class="center-align">Hectares of land</label>
+                        </div>
+                    </div>
+
+                    <div class="row margin">
+                        <div class="input-field col s10">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="purchase" type="number">
+                            <label for="purchase" class="center-align">cost of production in Aettos</label>
+                        </div>
+                    </div>
+
+                    <div class="row margin">
+                        <div class="input-field col s10">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="labour" type="number">
+                            <label for="labour" class="center-align">cost of Labour in Aettos</label>
+                        </div>
+                    </div>
+
+                    <div class="row margin">
+                        <div class="input-field col s10">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="tools" type="number">
+                            <label for="tools" class="center-align">cost of equipment in Aettos</label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <span class="center grey-text text-darken-4">Crops or Poultry/Livestock in percentage</span>
+                    </div>
+                        
+                    <div class="row margin">
+                        <div class="col s5">
+                            <div class="input-field col s10">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="crops" type="number">
+                                <label for="crops" class="center-align">% </label>
+                            </div>
+                        </div>
+                        <div class="col s5 right">
+                                <div class="input-field col s10">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input id="stock" type="number">
+                                    <label for="stock" class="center-align">% </label>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div>
+                        <span class="center grey-text text-darken-4">Profits/Loss in Aettos</span>
+                    </div>
+
+                    <div class="row margin">
+                        <div class="col s5">
+                            <div class="input-field col s10">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="profit" type="number">
+                                <label for="profit" class="center-align">profit </label>
+                            </div>
+                        </div>
+                        <div class="col s5 right">
+                                <div class="input-field col s10">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input id="loss" type="number">
+                                    <label for="loss" class="center-align">Loss </label>
+                                </div>
+                        </div>
+                    </div>
+                </form>
+                <form action="#!" class="record-form">
+                    <div>
+                        <span>Click the button below to save your records</span>
+                    </div>
+
+                    <div class="row margin">
+                        <div class="input-field col s12">
+                            <a href="#!" class="btn waves-effect waves-light waves-yellow round col s12 green darken-4 btn-save" id="btn-save{{index}}" style="border-radius: 15px;">Save</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div><br></br>
+
+    <div id="slipBody">
+       
+    </div>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Farm Records</h5>
+                <p class="grey-text text-lighten-4">This is a platform that helps you save your farm records keep tracks of your farming activities.</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Connect</h5>
+                <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Pintrest</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Linked</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+            © 2019 Copyright Alrights Reserved | alabson.inc@gmail.com
+            <a class="grey-text text-lighten-4 right" href="#!">Better Farm Records</a>
+            </div>
+        </div>
+    </footer>
+
+    <script id="template" type="x-tmpl-mustache">
+        {{#slipArray}}
+            <div id="striped" class="container scrollspy">
+                <div class="col s12 card-panel z-depth-3" id="panex">
+                    <h4 class="center" style="color: #008000;"><b>{{creatorName}}'s Farm Records</b></h4>
+                    <div class="row center">
+                        <h5 class="teal-text text-darken-4">Name: {{creatorName}}</h5>
+                        <h5 class="teal-text text-darken-4">Farm: {{farmName}}</h5>
+                    </div>
+                    <div class="container">
+                        <ul class="collection">
+                            <!-- <li class="collection-item">Type: {{type}}</li> -->
+                            <li class="collection-item">Hectares: {{hectares}}</li>
+                            <!-- <li class="collection-item">Scale: {{scale}}</li> -->
+                            <li class="collection-item">Gender: {{gender}}</li>
+                        </ul>
+                    </div>
+                    <table class="striped">
+                    <thead>
+                        <tr>
+                            <th>Item Name</th>
+                            <th>Item Price/Percentage</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                                <tr>
+                                    <td>Purchases</td>
+                                    <td>{{purchases}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Labour</td>
+                                    <td>{{labour}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Equipment</td>
+                                    <td>{{equipment}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Crops</td>
+                                    <td>{{crops}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Livestock/poultry</td>
+                                    <td>{{livestock}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Profits</td>
+                                    <td>{{profits}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Loss</td>
+                                    <td>{{loss}}</td>
+                                </tr>
+                                <tr>
+                                    <td class="teal-text text-darken-4">Total</td>
+                                    <td>{{total}}</td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+                </div>
+            </div><br>
+        {{/slipArray}}
+    </script>
+
+    
+    <script src="https://unpkg.com/@aeternity/aepp-sdk/dist/aepp-sdk.browser-script.js"></script>
+    <script src="./js/jquery-2.2.4.min.js"></script>
+    <script src="./js/materialize.min.js"></script>
+    <script src="./js/mustache.min.js"></script>
+    <script src="./js/test.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+        });
+    </script>
+</html>

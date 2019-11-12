@@ -1,0 +1,55 @@
+nav {
+    background-color:  #008000;
+}
+
+.log .logo {
+    top: 10px;
+}
+
+.container .row .row .col .btn-save {
+    background-image: linear-gradient(to right,  #008000, #73e600);
+    border-radius: 20px;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#cov {
+    height: 60px;
+    width: 60px;
+}
+
+.container {
+    overflow-y: auto;
+}
+
+header {
+    background-image: linear-gradient(to right,  #008000, #73e600);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 410px;
+}
+
+#reg {
+    left: 100px;
+}
+
+#panel {
+    /*width: 321px;
+    height: 1400px;
+    float: inline-start;*/
+    border-radius: 15px;
+}
+
+#panex {
+    border-radius: 15px;
+}
+
+.page-footer {
+    background-color: #008000;
+}
