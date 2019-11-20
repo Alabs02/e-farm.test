@@ -44,7 +44,7 @@ contract FarmRecords =
     //let updatedTotal = sum
     //put(state{ total = updatedTotal })
   `;
-const contractAddress = 'ct_tMmw9fZ2SJLk9U6Tj2PKa8EHuoat5pU3WRKa5CbdfemweJaV1';
+const contractAddress = 'ct_Gi3CoCwzZTXpkPPsZwYU7yjCUkhg8vFx22oKyz7bqexUshvJW';
 var client = null;
 var slipArray = [];
 var slipsLength = 0;
