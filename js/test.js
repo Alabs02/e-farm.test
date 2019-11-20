@@ -79,19 +79,19 @@ window.addEventListener('load', async () => {
         const slip =  await callStatic('getSlip', [i]);
 
         slipArray.push({
-            creatorName: name,
-            farmName: farmId,
-            hectares: land,
-            purchases: acquire,
-            labour: work,
+            creatorName: slip.name,
+            farmName:slip.farmName,
+            hectares: slip.hectares,
+            purchases: slip.purchases,
+            labour: slip.labour,
             index: i,
-            gender: sex,
-            equipment: items,
-            crops: produce+'%',
-            livestock: lives+'%',
-            profits: gain,
-            loss: lost,
-            total: totalNo
+            gender: slip.gender,
+            equipment: slip.equipment,
+            crops: slip.crops+'%',
+            livestock: slip.livestock+'%',
+            profits: slip.profits,
+            loss: slip.loss,
+            total: slip.total
         })
 
     }
